@@ -1,10 +1,10 @@
 {
-  "name": "seti-ui",
+  "name": "numix-ui",
   "theme": "ui",
-  "version": "0.1.13",
+  "version": "0.0.1",
   "description": "A dark colored UI theme for Atom with custom file icons.",
   "license": "MIT",
-  "repository": "https://github.com/jesseweed/seti-ui",
+  "repository": "https://github.com/dlanileonardo/atom-numix-ui",
   "engines": {
     "atom": ">0.99.0"
   }

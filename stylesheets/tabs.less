@@ -2,8 +2,8 @@
 
 @tab-border: none;
 
-@tab-highlight-color: rgb(79,153,211);
-@tab-background: rgb(30,35,38);
+@tab-highlight-color: @numix-highlight;
+@tab-background: rgb(45,45,45);
 @tab-background-active: rgb(16,17,18);
 @tab-bar-bottom-border-color: rgb(16,17,18);
 @tab-bar-background-color: rgb(38,43,48);
@@ -17,7 +17,7 @@
   background: @tab-bar-background-color;
   padding: 0 10px 0 10px;
   box-sizing: border-box;
-  border-bottom: solid 4px @tab-bar-bottom-border-color;
+  border-bottom: solid 2px @tab-bar-bottom-border-color;
 
   &:after {
     background: @tab-background-active;
@@ -39,7 +39,7 @@
     box-shadow: none;
     border-radius: 0;
     border: none;
-    border-bottom: solid 4px @tab-bar-bottom-border-color;
+    border-bottom: solid 2px @tab-bar-bottom-border-color;
 
     &, &:before {
       background: @tab-background;
@@ -57,7 +57,7 @@
       border-top-right-radius: 0;
       -webkit-transform: none;
       border: none;
-      border-bottom: solid 4px @tab-bar-bottom-border-color;
+      border-bottom: solid 2px @tab-bar-bottom-border-color;
       border-left: solid 1px @tab-bar-bottom-border-color;
       box-shadow: none;
     }
@@ -101,7 +101,7 @@
     color: @text-color-highlight;
     box-shadow: none;
     border: none;
-    border-bottom: solid 4px @tab-highlight-color;
+    border-bottom: solid 2px @tab-highlight-color;
 
     .title{
       position: relative;
@@ -121,7 +121,7 @@
 
     &:before {
       border: none;
-      border-bottom: solid 4px @tab-highlight-color;
+      border-bottom: solid 2px @tab-highlight-color;
       box-shadow: none;
     }
 
